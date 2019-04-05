@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp"
+        android:id="@+id/editText"
+        android:hint="Masukkan Nama"
+        android:layout_margin="48dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/button"
+        android:layout_alignParentStart="true"
+        android:hint="Masukkan Password"
+        android:layout_margin="48dp" />
+
+    <Button
+        android:text="Masuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_marginEnd="11dp"
+        android:layout_alignTop="@+id/editText"
+        android:layout_alignParentEnd="true" />
+
+    <CheckBox
+        android:text="@string/belum_ada_akun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/button" />
+
+</RelativeLayout>

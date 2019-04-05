@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Pertemuan4 Layout</string>
+    <string name="masukkan_nama">Masukkan Nama</string>
+    <string name="masuk">Masuk</string>
+    <string name="masukkan_password">Masukkan Password</string>
+    <string name="belum_punya_akun">Belum punya akun.?</string>
+    <string name="daftar">Daftar</string>
+    <string name="belum_ada_akun">Belum ada akun.?</string>
+</resources>
